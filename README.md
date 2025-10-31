@@ -1,1 +1,1 @@
-# SamBlogs
+# Sam Blogs
