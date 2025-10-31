@@ -6,3 +6,7 @@ minima:
   social_links:
     github: "https://github.com/Ritik-Agarwal50"
     twitter: "https://x.com/RitikkAgarwalll"
+head_html: |
+  <style>
+    a[href*="feed.xml"] { display: none !important; }
+  </style>
