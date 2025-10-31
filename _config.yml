@@ -3,12 +3,7 @@ description: "Exploring the math, madness, and meaning behind zero-knowledge and
 theme: minima
 show_excerpts: false
 
-# Disable RSS feed generation completely
-plugins: []
-feed: false
-
 minima:
-  skin: classic
   social_links:
     github: "https://github.com/Ritik-Agarwal50"
     twitter: "https://x.com/RitikkAgarwalll"
