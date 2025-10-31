@@ -1,3 +1,8 @@
 title: "Zero Divided by Knowledge"
 description: "Exploring the math, madness, and meaning behind zero-knowledge and modern cryptography"
 theme: minima
+show_excerpts: false
+minima:
+  social_links:
+    github: "https://github.com/Ritik-Agarwal50"
+    twitter: "https://x.com/RitikkAgarwalll"
