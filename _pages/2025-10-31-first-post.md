@@ -1,3 +1,8 @@
+---
+layout: post
+title: "Is Genius a Bug? Cracking the Code of P vs NP"
+date: 2025-10-31
+---
 ### Is Genius a Bug? Cracking the Code of P vs NP
 Imagine I hand you two Sudoku puzzles.
 
