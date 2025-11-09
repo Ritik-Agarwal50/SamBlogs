@@ -82,7 +82,7 @@ This reduces the circuit size drastically. This makes proofs for math operations
 
 By using these arithmetic circuits, the computation you are proving and the cryptography you are using to prove it speak the same language. This is the perfect alignment that avoids messy, inefficient conversion and makes the whole system fast and practical.<br>
 
-<b>Conclusion: Setting Up Our Next Step</b>
+<b>Conclusion: Setting Up Our Next Step</b><br>
 Let's recap the journey.<br>
 
 1. We started with P vs. NP and our Sudoku problem, discovering that NP's secret is that its solutions are easy to verify.
