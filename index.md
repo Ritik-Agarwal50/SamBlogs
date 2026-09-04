@@ -1,11 +1,8 @@
 ---
 layout: page
-title: Home
 ---
 
-# Ritik Agarwal
-
-### Smart Contract Security Researcher
+# Smart Contract Security Researcher
 
 I break down smart contracts, EVM-based protocols, and DeFi systems to understand how they work and where they fail.
 
