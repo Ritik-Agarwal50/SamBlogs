@@ -153,6 +153,70 @@ th {
   font-size: 0.85rem;
 }
 
+@media (prefers-color-scheme: dark) {
+  :root {
+    --ink: #e8edf4;
+    --muted: #b5bfcc;
+    --line: #344253;
+    --link: #8dc8ff;
+  }
+
+  html {
+    color-scheme: dark;
+  }
+
+  body {
+    background:
+      radial-gradient(circle at 10% 0%, rgba(33, 79, 118, 0.65), transparent 32rem),
+      linear-gradient(135deg, #101923 0%, #17212d 100%);
+  }
+
+  .site-header,
+  .site-footer {
+    background: rgba(16, 25, 35, 0.82);
+  }
+
+  .page-content .wrapper {
+    background: rgba(24, 35, 48, 0.94);
+    border-color: rgba(72, 91, 112, 0.85);
+    box-shadow: 0 14px 35px rgba(0, 0, 0, 0.22);
+  }
+
+  .site-title,
+  .site-title:hover,
+  .site-nav .page-link,
+  h1,
+  h2,
+  h3,
+  th,
+  p,
+  li,
+  .post-link {
+    color: var(--ink);
+  }
+
+  .site-nav .page-link:hover,
+  .post-link:hover {
+    color: var(--link);
+  }
+
+  table tr:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0.035);
+  }
+
+  table th,
+  table td {
+    border-color: var(--line);
+  }
+
+  @media screen and (max-width: 600px) {
+    .site-nav {
+      background-color: #182330;
+      border-color: var(--line);
+    }
+  }
+}
+
 @media screen and (max-width: 700px) {
   body {
     font-size: 16px;
