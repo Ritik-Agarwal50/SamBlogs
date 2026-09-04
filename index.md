@@ -15,7 +15,7 @@ My strongest public result is **3rd out of 723 participants** in Cantina's Kuru 
 
 I am currently studying zero-knowledge proofs and cryptography, writing a beginner-oriented *Intro to ZK Math* resource, and developing an early-stage research project on server-less communications.
 
-[Security portfolio](https://github.com/Ritik-Agarwal50/security-portfolio) / [GitHub](https://github.com/Ritik-Agarwal50) / [LinkedIn](https://www.linkedin.com/in/ritik-agarwal-bb0934182/) / [X](https://x.com/RitikkAgarwalll)
+[Security portfolio](https://github.com/Ritik-Agarwal50/security-portfolio) / [GitHub](https://github.com/Ritik-Agarwal50) / [LinkedIn](https://www.linkedin.com/in/ritik-agarwal-bb0934182/) / [X](https://x.com/RitikkAgarwalll) / <a href="{{ '/asset/Ritik_Agarwal_Resume.pdf' | relative_url }}" target="_blank" rel="noopener">CV</a>
 
 ---
 

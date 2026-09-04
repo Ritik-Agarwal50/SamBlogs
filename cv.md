@@ -6,7 +6,7 @@ permalink: /cv/
 
 # Curriculum Vitae
 
-[Download PDF]({{ '/assets/files/Ritik_Agarwal_Resume.pdf' | relative_url }})
+[Download PDF]({{ '/asset/Ritik_Agarwal_Resume.pdf' | relative_url }})
 
 ## Experience
 

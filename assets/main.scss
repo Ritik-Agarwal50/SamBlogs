@@ -166,20 +166,18 @@ th {
   }
 
   body {
-    background:
-      radial-gradient(circle at 10% 0%, rgba(33, 79, 118, 0.65), transparent 32rem),
-      linear-gradient(135deg, #101923 0%, #17212d 100%);
+    background: #181818;
   }
 
   .site-header,
   .site-footer {
-    background: rgba(16, 25, 35, 0.82);
+    background: #181818;
   }
 
   .page-content .wrapper {
-    background: rgba(24, 35, 48, 0.94);
-    border-color: rgba(72, 91, 112, 0.85);
-    box-shadow: 0 14px 35px rgba(0, 0, 0, 0.22);
+    background: #222;
+    border-color: #333;
+    box-shadow: none;
   }
 
   .site-title,
@@ -211,7 +209,7 @@ th {
 
   @media screen and (max-width: 600px) {
     .site-nav {
-      background-color: #182330;
+      background-color: #222;
       border-color: var(--line);
     }
   }
