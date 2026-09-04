@@ -87,11 +87,11 @@ Smart contracts · EVM · DeFi
 
 **Building**
 
-Shim · Go · Security tooling
+Shim · Security tooling
 
 **Learning**
 
-Zero-knowledge proofs · Cryptography · Systems
+Zero-knowledge proofs · Cryptography
 
 **Writing**
 
