@@ -5,52 +5,106 @@ title: Home
 
 # Ritik Agarwal
 
-**Smart contract security researcher and security engineer.**
+### Smart Contract Security Researcher
 
-ritikagarwal570 at gmail dot com
+I break down smart contracts, EVM-based protocols, and DeFi systems to understand how they work and where they fail.
 
-I work on DeFi protocol security, EVM behavior, and vulnerability research. Since January 2025, I have researched blockchain security full-time and reported **18 validated findings across 8 public audit competitions** on Cantina, Sherlock, CodeHawks, and Guardian.
+My work spans competitive security research, private reviews, and security engineering. I also build tools, study cryptography, and explore unfamiliar systems to understand them from first principles.
 
-My strongest public result is **3rd out of 723 participants** in Cantina's Kuru audit, with four validated findings. I also complete private reviews under NDA and co-build Shim, a Go-based security layer for npm, pnpm, and yarn that helps developers evaluate package-install risk.
+**Solidity · Go · Python · EVM · DeFi**
 
-I am currently studying zero-knowledge proofs and cryptography, writing a beginner-oriented *Intro to ZK Math* resource, and developing an early-stage research project on server-less communications.
-
-[Security portfolio](https://github.com/Ritik-Agarwal50/security-portfolio) / [GitHub](https://github.com/Ritik-Agarwal50) / [LinkedIn](https://www.linkedin.com/in/ritik-agarwal-bb0934182/) / [X](https://x.com/RitikkAgarwalll) / <a href="{{ '/asset/Ritik_Agarwal_Resume.pdf' | relative_url }}" target="_blank" rel="noopener">CV</a>
+[Security Portfolio](https://github.com/Ritik-Agarwal50/security-portfolio) · [GitHub](https://github.com/Ritik-Agarwal50) · [LinkedIn](https://www.linkedin.com/in/ritik-agarwal-bb0934182/) · [X](https://x.com/RitikkAgarwalll)
 
 ---
 
-## Updates
+## Security Research
 
-- **2026:** Learning zero-knowledge proofs and writing *Intro to ZK Math*, a personal learning resource for the mathematics behind ZK.
-- **2025–present:** Co-building Shim, a Go security tool that intercepts package-manager activity and evaluates package-install risk. It is currently used by around 25 people while we prepare v1 for open source.
-- **January 2025:** Started blockchain security research full-time after transitioning from Solidity and DApp development.
+I started focusing on blockchain security full-time in 2025. Since then, I have reported **18 validated findings across 8 public audit competitions**, covering AMMs, lending markets, vaults, liquidity management, and on-chain exchanges.
+
+My strongest public result so far is **3rd / 723** in Cantina's Kuru security review, where I reported four validated findings.
+
+I also complete private security reviews under NDA, where the details cannot be publicly disclosed.
+
+**[Explore my security work →](https://github.com/Ritik-Agarwal50/security-portfolio)**
 
 ---
 
-## Selected work
+## Building
 
-| Protocol | Platform | Result | Findings |
-| --- | --- | ---: | ---: |
-| [Kuru](https://github.com/Ritik-Agarwal50/security-portfolio/tree/main/Kuru) | Cantina | 3rd / 723 | 4 |
-| [Ammplify](https://github.com/Ritik-Agarwal50/security-portfolio/tree/main/Ammplify) | Sherlock | 19th | 1 |
-| [Mighty Finance](https://github.com/Ritik-Agarwal50/security-portfolio/tree/main/Mighty_Finance) | Cantina | 117th / 629 | 5 |
-| [Alchemix V3](https://github.com/Ritik-Agarwal50/security-portfolio/tree/main/Alchemix) | Cantina | 86th / 902 | 2 |
-| [Jigsaw](https://github.com/Ritik-Agarwal50/security-portfolio/tree/main/Jigsaw-contracts) | Cantina | 92nd / 759 | 2 |
+Security research is only part of what I do.
 
-See the [full security portfolio](https://github.com/Ritik-Agarwal50/security-portfolio) for all public findings, write-ups, and PoCs. Some private review work cannot be disclosed because of NDAs.
+I am currently co-building **Shim**, a Go-based security tool for package-manager workflows. Shim sits between developers and package managers such as npm, pnpm, and yarn, analyzing package-install activity and helping identify potentially risky dependencies and installation behavior.
+
+Alongside Shim, I continue to build and experiment with infrastructure, developer tooling, and systems engineering.
+
+**[View projects →](https://github.com/Ritik-Agarwal50)**
+
+---
+
+## Research
+
+### In Progress
+
+I am currently going deeper into **zero-knowledge proofs and cryptography**. One of my ongoing projects is *Intro to ZK Math*, a beginner-oriented resource where I work through the mathematical foundations behind zero-knowledge systems.
+
+I am also developing an independent research project around a **serverless communications system**, continuing to explore the original idea while learning how to properly structure and document technical research.
+
+Dedicated research updates and project releases are coming soon.
 
 ---
 
 ## Writing
 
-I write about zero-knowledge proofs, cryptography, and the ideas I am learning along the way.
+### Zero Divided by Knowledge
 
-[Read the blog]({{ '/blog/' | relative_url }})
+I write about zero-knowledge proofs, cryptography, mathematics, and the ideas I encounter while trying to understand them.
+
+Recent writing:
+
+{% for post in site.posts limit: 3 %}
+- [**{{ post.title }}**]({{ post.url | relative_url }})
+{% endfor %}
+
+**[Read the blog →]({{ '/blog/' | relative_url }})**
 
 ---
 
-## Earlier work
+## The Path Here
 
-Before security research, I built Solidity applications and worked on hackathon teams. Highlights include winning the Polygon track at DU Hacks for **Save Tiger**, an ERC-721 fundraising application, and two placements at Cyber Shadez: first place for **Sandesh**, a decentralized communications system, and second place for an account-abstraction project.
+I did not start in security.
 
-For the fuller story, see my [career timeline]({{ '/timeline/' | relative_url }}).
+I began with programming and blockchain development, built DApps, participated in hackathons, experimented with different parts of the stack, and gradually became more interested in the security side of the systems I was building.
+
+That eventually led me from **building protocols to trying to break them**.
+
+My full timeline covers where I started, the failures and wins along the way, and how I moved into full-time security research.
+
+**[Read the full timeline →]({{ '/timeline/' | relative_url }})**
+
+---
+
+## Currently
+
+**Security research**
+
+Smart contracts · EVM · DeFi
+
+**Building**
+
+Shim · Go · Security tooling
+
+**Learning**
+
+Zero-knowledge proofs · Cryptography · Systems
+
+**Writing**
+
+Zero Divided by Knowledge
+
+---
+
+## Get In Touch
+
+If you are working on blockchain security, DeFi, cryptography, security tooling, or interesting systems, feel free to reach out.
+
+[GitHub](https://github.com/Ritik-Agarwal50) · [Security Portfolio](https://github.com/Ritik-Agarwal50/security-portfolio) · [X](https://x.com/RitikkAgarwalll) · [LinkedIn](https://www.linkedin.com/in/ritik-agarwal-bb0934182/) · <a href="{{ '/asset/Ritik_Agarwal_Resume.pdf' | relative_url }}" target="_blank" rel="noopener">CV</a> · [Email](mailto:ritikagarwal570@gmail.com)
