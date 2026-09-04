@@ -178,16 +178,17 @@ th {
   }
 
   body {
-    background: #181818;
+    background: #121212 !important;
+    color: #f5f7fa !important;
   }
 
   .site-header,
   .site-footer {
-    background: #181818;
+    background: #121212 !important;
   }
 
   .page-content .wrapper {
-    background: #20242a;
+    background: #1d1d1d !important;
     border-color: var(--line);
     box-shadow: none;
   }
@@ -202,7 +203,26 @@ th {
   p,
   li,
   .post-link {
-    color: var(--ink);
+    color: #f5f7fa !important;
+  }
+
+  .page-content,
+  .page-content p,
+  .page-content li,
+  .page-content h1,
+  .page-content h2,
+  .page-content h3,
+  .post-list,
+  .post-list li,
+  .post-excerpt,
+  .post-content {
+    color: #f5f7fa !important;
+  }
+
+  .page-content a,
+  .post-list a,
+  table a {
+    color: #8dccff !important;
   }
 
   .post-meta,
@@ -217,14 +237,23 @@ th {
     color: var(--link);
   }
 
-  table tr:nth-child(even) {
-    background-color: #292f36;
+  table,
+  table thead,
+  table tbody,
+  table tr,
+  table tr:nth-child(even),
+  table tr:nth-child(odd) {
+    background-color: #1d1d1d !important;
   }
 
   table th,
   table td {
-    color: var(--ink);
+    color: #f5f7fa !important;
     border-color: var(--line);
+  }
+
+  table th {
+    background-color: #292929 !important;
   }
 
   @media screen and (max-width: 600px) {
