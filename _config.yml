@@ -2,7 +2,7 @@ title: "Ritik Agarwal"
 description: "Smart contract security researcher and security engineer."
 baseurl: "/SamBlogs"
 theme: minima
-show_excerpts: true
+show_excerpts: false
 
 email: ritikagarwal570@gmail.com
 github_username: Ritik-Agarwal50

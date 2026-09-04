@@ -6,19 +6,22 @@
 :root {
   --ink: #232323;
   --muted: #555;
-  --line: #e7e7e7;
+  --line: #dce3eb;
   --link: #0969da;
 }
 
 body {
   color: var(--ink);
-  background: #fff;
+  background:
+    radial-gradient(circle at 10% 0%, rgba(213, 230, 248, 0.8), transparent 32rem),
+    linear-gradient(135deg, #eef4fa 0%, #f7f4ed 100%);
   font-family: Georgia, "Times New Roman", serif;
   font-size: 16px;
   line-height: 1.58;
 }
 
 .site-header {
+  background: rgba(255, 255, 255, 0.82);
   border-top: 0;
   border-bottom: 1px solid var(--line);
 }
@@ -49,6 +52,16 @@ body {
 
 .page-content {
   padding-top: 42px;
+  padding-bottom: 52px;
+}
+
+.page-content .wrapper {
+  box-sizing: border-box;
+  padding: 2.75rem 3rem;
+  background: rgba(255, 255, 255, 0.88);
+  border: 1px solid rgba(220, 227, 235, 0.9);
+  border-radius: 8px;
+  box-shadow: 0 14px 35px rgba(39, 67, 96, 0.08);
 }
 
 h1,
@@ -135,6 +148,7 @@ th {
 }
 
 .site-footer {
+  background: rgba(255, 255, 255, 0.45);
   border-top: 1px solid var(--line);
   font-size: 0.85rem;
 }
@@ -147,5 +161,10 @@ th {
   h1,
   .home h1 {
     font-size: 1.9rem;
+  }
+
+  .page-content .wrapper {
+    padding: 1.8rem 1.35rem;
+    border-radius: 0;
   }
 }
