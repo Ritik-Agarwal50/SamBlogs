@@ -102,7 +102,19 @@ li {
 table {
   display: table;
   margin: 1.25rem 0;
+  color: var(--ink);
+  background: transparent;
   font-size: 0.88em;
+}
+
+table th,
+table td {
+  color: var(--ink);
+}
+
+table tr,
+table tr:nth-child(even) {
+  background-color: transparent;
 }
 
 .post-list {
@@ -111,6 +123,7 @@ table {
 
 .post-list > li {
   margin-bottom: 2.2rem;
+  color: var(--ink);
 }
 
 .post-meta {
@@ -135,6 +148,7 @@ table {
 
 .post-excerpt {
   margin-top: 0.4rem;
+  color: var(--ink);
 }
 
 .post-content {
@@ -204,11 +218,12 @@ th {
   }
 
   table tr:nth-child(even) {
-    background-color: rgba(255, 255, 255, 0.035);
+    background-color: #292f36;
   }
 
   table th,
   table td {
+    color: var(--ink);
     border-color: var(--line);
   }
 
