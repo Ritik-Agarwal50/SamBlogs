@@ -1,17 +1,19 @@
 ---
-layout: home
+layout: page
 title: Home
 ---
 
 # Ritik Agarwal
 
+**Smart contract security researcher and security engineer.**
+
 ritikagarwal570 at gmail dot com
 
-I am a smart contract security researcher focused on DeFi protocol security, EVM behavior, and vulnerability research. Since January 2025, I have worked on blockchain security full-time, with **18 validated findings across 8 public audit competitions** on Cantina, Sherlock, CodeHawks, and Guardian.
+I work on DeFi protocol security, EVM behavior, and vulnerability research. Since January 2025, I have researched blockchain security full-time and reported **18 validated findings across 8 public audit competitions** on Cantina, Sherlock, CodeHawks, and Guardian.
 
-My strongest public result is **3rd out of 723 participants** in Cantina's Kuru audit, where I reported four validated findings. I also take on private security reviews under NDA and build security tooling outside Web3: I am co-building Shim, a Go-based layer that helps protect developers from malicious or risky packages across npm, pnpm, and yarn.
+My strongest public result is **3rd out of 723 participants** in Cantina's Kuru audit, with four validated findings. I also complete private reviews under NDA and co-build Shim, a Go-based security layer for npm, pnpm, and yarn that helps developers evaluate package-install risk.
 
-I am currently deepening my cryptography foundations through zero-knowledge proofs, a beginner-oriented *Intro to ZK Math* book, and an early-stage research project on server-less communications.
+I am currently studying zero-knowledge proofs and cryptography, writing a beginner-oriented *Intro to ZK Math* resource, and developing an early-stage research project on server-less communications.
 
 [Security portfolio](https://github.com/Ritik-Agarwal50/security-portfolio) / [GitHub](https://github.com/Ritik-Agarwal50) / [LinkedIn](https://www.linkedin.com/in/ritik-agarwal-bb0934182/) / [X](https://x.com/RitikkAgarwalll)
 
@@ -25,7 +27,7 @@ I am currently deepening my cryptography foundations through zero-knowledge proo
 
 ---
 
-## Selected Security Work
+## Selected work
 
 | Protocol | Platform | Result | Findings |
 | --- | --- | ---: | ---: |
@@ -39,7 +41,15 @@ See the [full security portfolio](https://github.com/Ritik-Agarwal50/security-po
 
 ---
 
-## Earlier Work
+## Writing
+
+I write about zero-knowledge proofs, cryptography, and the ideas I am learning along the way.
+
+[Read the blog]({{ '/blog/' | relative_url }})
+
+---
+
+## Earlier work
 
 Before security research, I built Solidity applications and worked on hackathon teams. Highlights include winning the Polygon track at DU Hacks for **Save Tiger**, an ERC-721 fundraising application, and two placements at Cyber Shadez: first place for **Sandesh**, a decentralized communications system, and second place for an account-abstraction project.
 

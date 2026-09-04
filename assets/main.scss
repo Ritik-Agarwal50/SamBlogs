@@ -14,7 +14,7 @@ body {
   color: var(--ink);
   background: #fff;
   font-family: Georgia, "Times New Roman", serif;
-  font-size: 17px;
+  font-size: 16px;
   line-height: 1.58;
 }
 
@@ -26,6 +26,17 @@ body {
 .site-title {
   color: var(--ink);
   font-weight: 700;
+}
+
+.site-nav .page-link {
+  color: var(--ink);
+  font-family: Arial, sans-serif;
+  font-size: 0.82rem;
+}
+
+.site-nav .page-link:hover {
+  color: var(--link);
+  text-decoration: none;
 }
 
 .site-title:hover {
@@ -51,13 +62,17 @@ h3 {
 
 h1,
 .home h1 {
-  font-size: 2rem;
+  font-size: 2.15rem;
   margin-bottom: 0.7rem;
 }
 
 h2 {
   margin-top: 2rem;
   font-size: 1.35rem;
+}
+
+.page-heading {
+  display: none;
 }
 
 a {
@@ -79,6 +94,42 @@ table {
   font-size: 0.88em;
 }
 
+.post-list {
+  margin-top: 2rem;
+}
+
+.post-list > li {
+  margin-bottom: 2.2rem;
+}
+
+.post-meta {
+  color: var(--muted);
+  font-family: Arial, sans-serif;
+  font-size: 0.78rem;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.post-link {
+  color: var(--ink);
+  font-size: 1.35rem;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.post-link:hover {
+  color: var(--link);
+  text-decoration: none;
+}
+
+.post-excerpt {
+  margin-top: 0.4rem;
+}
+
+.post-content {
+  font-size: 1.05rem;
+}
+
 th {
   color: #111;
 }
@@ -91,5 +142,10 @@ th {
 @media screen and (max-width: 700px) {
   body {
     font-size: 16px;
+  }
+
+  h1,
+  .home h1 {
+    font-size: 1.9rem;
   }
 }
