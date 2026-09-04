@@ -256,6 +256,27 @@ th {
     background-color: #292929 !important;
   }
 
+  code {
+    color: #f5f7fa !important;
+    background-color: #353b45 !important;
+    border-color: #4a5360 !important;
+  }
+
+  pre,
+  .highlight,
+  .highlighter-rouge .highlight {
+    color: #f5f7fa !important;
+    background-color: #171a1f !important;
+    border-color: #4a5360 !important;
+  }
+
+  pre code,
+  .highlight code {
+    color: #f5f7fa !important;
+    background-color: transparent !important;
+    border: 0;
+  }
+
   @media screen and (max-width: 600px) {
     .site-nav {
       background-color: #222;
