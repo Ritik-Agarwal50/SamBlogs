@@ -1,0 +1,95 @@
+---
+---
+
+@import "minima";
+
+:root {
+  --ink: #232323;
+  --muted: #555;
+  --line: #e7e7e7;
+  --link: #0969da;
+}
+
+body {
+  color: var(--ink);
+  background: #fff;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 17px;
+  line-height: 1.58;
+}
+
+.site-header {
+  border-top: 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.site-title {
+  color: var(--ink);
+  font-weight: 700;
+}
+
+.site-title:hover {
+  color: var(--ink);
+}
+
+.wrapper {
+  max-width: 780px;
+}
+
+.page-content {
+  padding-top: 42px;
+}
+
+h1,
+h2,
+h3 {
+  color: #111;
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: 700;
+  letter-spacing: -0.015em;
+}
+
+h1,
+.home h1 {
+  font-size: 2rem;
+  margin-bottom: 0.7rem;
+}
+
+h2 {
+  margin-top: 2rem;
+  font-size: 1.35rem;
+}
+
+a {
+  color: var(--link);
+}
+
+a:hover {
+  color: var(--link);
+}
+
+p,
+li {
+  color: var(--ink);
+}
+
+table {
+  display: table;
+  margin: 1.25rem 0;
+  font-size: 0.88em;
+}
+
+th {
+  color: #111;
+}
+
+.site-footer {
+  border-top: 1px solid var(--line);
+  font-size: 0.85rem;
+}
+
+@media screen and (max-width: 700px) {
+  body {
+    font-size: 16px;
+  }
+}

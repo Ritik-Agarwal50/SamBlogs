@@ -1,8 +1,15 @@
-title: "Zero Divided by Knowledge"
-description: "Exploring the math, madness, and meaning behind zero-knowledge and modern cryptography"
+title: "Ritik Agarwal"
+description: "Smart contract security researcher and security engineer."
+baseurl: "/SamBlogs"
 theme: minima
-show_excerpts: false
+show_excerpts: true
 
 email: ritikagarwal570@gmail.com
 github_username: Ritik-Agarwal50
 twitter_username: RitikkAgarwalll
+linkedin_username: ritik-agarwal-bb0934182
+
+header_pages:
+  - portfolio.md
+  - timeline.md
+  - about.md
