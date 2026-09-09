@@ -103,4 +103,4 @@ Zero Divided by Knowledge
 
 If you are working on blockchain security, DeFi, cryptography, security tooling, or interesting systems, feel free to reach out.
 
-[GitHub](https://github.com/Ritik-Agarwal50) · [Security Portfolio](https://github.com/Ritik-Agarwal50/security-portfolio) · [X](https://x.com/RitikkAgarwalll) · [LinkedIn](https://www.linkedin.com/in/ritik-agarwal-bb0934182/) · <a href="{{ '/asset/Ritik_Agarwal_Resume.pdf' | relative_url }}" target="_blank" rel="noopener">CV</a> · [Email](mailto:ritikagarwal570@gmail.com)
+[GitHub](https://github.com/Ritik-Agarwal50) · [Security Portfolio](https://github.com/Ritik-Agarwal50/security-portfolio) · [X](https://x.com/RitikkAgarwalll) · [LinkedIn](https://www.linkedin.com/in/ritik-agarwal-bb0934182/) · <a href="{{ '/asset/Ritik_Resume.pdf' | relative_url }}" target="_blank" rel="noopener">CV</a> · [Email](mailto:ritikagarwal570@gmail.com)
